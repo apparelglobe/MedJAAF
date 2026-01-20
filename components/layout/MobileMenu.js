@@ -27,9 +27,10 @@ export default function MobileMenu({ handleMobileMenu, isMobileMenu }) {
                                 <Link href="tel:9592350229" className="cnt">
                                     <i className="fi-rs-headphones" />9592350229</Link>
                             </div>
-                            <div className="single-mobile-header-info cont_over">
-                                <Link href="mailto:Medjaafsolutions@gmail.com" className="cnt">
-                                    <i className="fi-rs-envelope" />Medjaafsolutions@gmail.com </Link>
+                              <div className="single-mobile-header-info cont_over">
+      <Link href="mailto:info@medjaafsolution.com" className="cnt">
+          <i className="fi-rs-envelope" />info@medjaafsolution.com </Link>
+
                             </div>
                             <div className="single-mobile-header-info" >
                                 <Link href="/enrollment" className="theme_btn " >  Enrollment</Link>

@@ -68,8 +68,9 @@ export default function Contact() {
                                         <img src="/assets/images/cont-2.png" alt="Email icon" className="img-fluid" width={60} />
                                     </div>
                                     <h6 className="title_no_a_24 mb-3">Email</h6>
-                                    <Link href="mailto:Medjaafsolutions@gmail.com" className="text_primary hover_underline">
-                                        Medjaafsolutions@gmail.com
+                                          <Link href="mailto:info@medjaafsolution.com" className="text_primary hover_underline">
+          info@medjaafsolution.com
+
                                     </Link>
                                 </div>
                             </div>
@@ -139,6 +140,11 @@ export default function Contact() {
                                 <section className="contact_form_box_all">
                                     <div className="contact_form_shortcode">
                                         <form ref={form} onSubmit={sendEmail} id="contact-form">
+                                            <input
+                                                type="hidden"
+                                                name="to_email"
+                                                value="info@medjaafsolution.com"
+                                            />
                                             <div className="messages" />
                                             <div className="controls">
                                                 <div className="row">

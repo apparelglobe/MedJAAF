@@ -254,10 +254,11 @@ export default function Banner1() {
 
                         <a href="mailto:Info@speedycredentialing.com" className="contact-option">
                             <i className="fa fa-envelope"></i>
-                            <div>
-                                <strong>Email Us</strong>
-                                <span>Medjaafsolutions@gmail.com</span>
-                            </div>
+                                  <div>
+          <strong>Email Us</strong>
+          <span>info@medjaafsolution.com</span>
+      </div>
+
                         </a>
 
                         <a href="tel:5712818988" className="contact-option">

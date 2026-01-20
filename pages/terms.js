@@ -136,7 +136,7 @@ export default function TermsAndConditions() {
 
                                     <h6>Contact Information</h6>
                                     <p>
-                                        For questions about these Terms, please contact us at <a href="mailto:Medjaafsolutions@gmail.com">Medjaafsolutions@gmail.com</a>.
+                                        For questions about these Terms, please contact us at <a href="mailto:info@medjaafsolution.com">info@medjaafsolution.com</a>.
                                     </p>
 
                                     <p>

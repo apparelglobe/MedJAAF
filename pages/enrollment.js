@@ -85,6 +85,11 @@ export default function Team() {
                             </div>
 
                             <form ref={form} onSubmit={sendEmail} className="enrollment-form bg-white p-4 p-md-5 rounded-4 shadow-sm border">
+                                <input
+                                    type="hidden"
+                                    name="to_email"
+                                    value="info@medjaafsolution.com"
+                                />
 
                                 {/* --- Section 1: Personal Details --- */}
                                 <div className="form-section mb-5">
